@@ -70,7 +70,7 @@ export PYTHON_PATH=./
 ```
 For audio-driven, provide source image and driving audio:
 ```bash
-python inference/real3d_infer.py \
+python __init__.py \
 --src_img <PATH_TO_SOURCE_IMAGE> \
 --drv_aud <PATH_TO_AUDIO> \
 --drv_pose <PATH_TO_POSE_VIDEO, OPTIONAL> \
@@ -79,7 +79,7 @@ python inference/real3d_infer.py \
 ```
 For video-driven, provide source image and driving expression video(as `--drv_aud` parameter):
 ```bash
-python inference/real3d_infer.py \
+python __init__.py \
 --src_img <PATH_TO_SOURCE_IMAGE> \
 --drv_aud <PATH_TO_EXP_VIDEO> \
 --drv_pose <PATH_TO_POSE_VIDEO, OPTIONAL> \
