@@ -183,7 +183,6 @@ process_data_May.sh
 /my_debug.py
 
 utils/metrics/shape_predictor_68_face_landmarks.dat
-*.mp4
 _torchshow/
 *.png
 *.jpg
